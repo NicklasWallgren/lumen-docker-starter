@@ -1,4 +1,4 @@
-# Symfony Docker Starter
+# Lumen Docker Starter
 
 > An Lumen framework starter kit featuring 
 [Lumen](https://lumen.laravel.com/) and 
@@ -63,8 +63,8 @@ make update-project
 # Access the php container
 make bash-cli
     
-# Launch the symfony cli
-php ./symfony/bin/console
+# Launch the artisan cli
+cd lumen && php artisan
 ```
 ### Access MySQL cli
 ```bash
